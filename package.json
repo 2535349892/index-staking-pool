@@ -1,0 +1,17 @@
+{
+  "name": "staking-pool",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:verbose": "hardhat test --verbose"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.28.6"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}

@@ -1,0 +1,79 @@
+.app {
+  width: 100%;
+  max-width: 500px;
+}
+
+.main-card {
+  background: rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 20px !important;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.main-card .ant-card-body {
+  padding: 32px;
+}
+
+.stat-card {
+  background: rgba(255, 255, 255, 0.04) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 12px !important;
+}
+
+.stat-card .ant-statistic-title {
+  color: #888 !important;
+  font-size: 11px !important;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.action-card {
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 255, 255, 0.06) !important;
+  border-radius: 12px !important;
+}
+
+.action-card .ant-card-head {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+  color: #ccc !important;
+}
+
+.action-card .ant-card-head-title {
+  color: #ccc !important;
+  font-size: 14px !important;
+}
+
+.action-card.admin {
+  border-color: rgba(161, 140, 209, 0.2) !important;
+}
+
+/* Ant Design 深色适配 */
+.ant-input-number {
+  background: rgba(255, 255, 255, 0.06) !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
+  color: #fff !important;
+}
+
+.ant-input-number-input {
+  color: #fff !important;
+}
+
+.ant-input-number-input::placeholder {
+  color: #666 !important;
+}
+
+.ant-btn-default {
+  background: rgba(255, 255, 255, 0.06) !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
+  color: #ccc !important;
+}
+
+.ant-btn-default:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: #fff !important;
+}
+
+.ant-divider {
+  margin: 8px 0 !important;
+}
